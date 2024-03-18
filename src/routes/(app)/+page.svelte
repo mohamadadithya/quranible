@@ -6,15 +6,17 @@
 
 	export let data;
 
-	let { surahs } = data;
-	let keyword = '';
+	const { surahs } = data;
+
+	let keyword = '',
+		filteredSurahs = [...surahs];
 
 	const filterSurahs = () =>
 		surahs.filter((surah) =>
 			surah.name.transliteration.id.toLowerCase().includes(keyword.toLowerCase())
 		);
 
-	$: surahs = keyword ? filterSurahs() : [...data.surahs];
+	$: filteredSurahs = keyword ? filterSurahs() : [...surahs];
 </script>
 
 <MetaTags title={PUBLIC_SITE_NAME} />
@@ -32,7 +34,7 @@
 		/>
 	</div>
 	<div class="grid md:grid-cols-2 lg:grid-cols-3 mt-10 gap-6 md:gap-10">
-		{#each surahs as surah}
+		{#each filteredSurahs as surah}
 			<SurahCard {surah} />
 		{/each}
 	</div>
