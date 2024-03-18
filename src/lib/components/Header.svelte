@@ -1,4 +1,5 @@
 <script>
+	import { PUBLIC_SITE_NAME } from '$env/static/public';
 	import Icon from '@iconify/svelte';
 	import NavList from '@components/NavList.svelte';
 	import { mainLinks } from '@data/links';
@@ -21,7 +22,7 @@
 				>
 					<Icon class="text-3xl" icon="ic:round-menu" />
 				</button>
-				<a href="/" title="Quranible" class="text-2xl font-bold">Quranible</a>
+				<a href="/" title={PUBLIC_SITE_NAME} class="text-2xl font-bold">{PUBLIC_SITE_NAME}</a>
 			</li>
 			<li class="flex items-center gap-2">
 				<a
