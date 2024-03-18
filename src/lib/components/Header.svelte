@@ -3,6 +3,7 @@
 	import Icon from '@iconify/svelte';
 	import NavList from '@components/NavList.svelte';
 	import { mainLinks } from '@data/links';
+	import { clickOutside } from '@lib/actions/click-outside';
 
 	let isOpen = false;
 </script>
@@ -18,7 +19,7 @@
 					class="mr-2"
 					aria-label="Menu"
 					title="Menu"
-					on:click={() => (isOpen = !isOpen)}
+					on:click|stopPropagation={() => (isOpen = !isOpen)}
 				>
 					<Icon class="text-3xl" icon="ic:round-menu" />
 				</button>
@@ -42,11 +43,12 @@
 	</div>
 </header>
 
-<nav
+<aside
 	class="h-screen w-3/4 md:w-1/4 py-10 fixed bg-gray-800 left-0 top-0 container mx-auto px-5 -translate-x-full opacity-0 transition-all duration-500 menu-panel flex flex-col justify-between pt-20"
 	class:opened={isOpen}
+	use:clickOutside={() => (isOpen = false)}
 >
-	<div>
+	<nav>
 		<p class="mb-4 font-semibold text-xl">Menu</p>
 		<ul>
 			{#each mainLinks as link}
@@ -69,8 +71,8 @@
 				</a>
 			</li>
 		</ul>
-	</div>
-</nav>
+	</nav>
+</aside>
 
 <style>
 	.menu-panel {

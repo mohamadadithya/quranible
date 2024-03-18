@@ -56,7 +56,7 @@
 
 <svelte:window bind:scrollY />
 
-<section id="surah" class="min-h-dvh py-8">
+<section id="surah" class="min-h-dvh pt-8 pb-24">
 	{#if surah.number != 1}
 		<h1 class="text-center text-4xl md:text-5xl mt-5 mb-14 md:mb-20 font-arabic">
 			بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
@@ -108,7 +108,7 @@
 	title="Scroll to Top"
 	on:click={() => (scrollY = 0)}
 	class:over-scroll={scrollY > 500}
-	class="fixed bottom-8 right-4 transition-opacity duration-300 bg-gray-800 rounded-full text-white w-12 h-12 grid place-items-center"
+	class="fixed bottom-5 right-5 transition-opacity duration-300 bg-gray-700 rounded-full text-white w-12 h-12 grid place-items-center"
 >
 	<Icon class="text-3xl" icon="mdi:chevron-up" />
 </button>
