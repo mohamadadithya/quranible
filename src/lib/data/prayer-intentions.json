@@ -1,0 +1,172 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"arab": "أُصَلِّى فَرْضَ الصُّبْح رَكَعتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى",
+			"name": "Niat Sholat Shubuh",
+			"transliteration": "Usholli fardlon shubhi rok'ataini mustaqbilal qiblati adaa-an lillahi ta'aala",
+			"translation": "Aku niat melakukan sholat fardu subuh dua rakaat, sambil menghadap qiblat, saat ini, karena Allah ta'ala"
+		},
+		{
+			"id": 2,
+			"arab": "اُصَلِّيْ فَرْضَ الظُّهْرِ أَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى",
+			"name": "Niat Sholat Dzuhur",
+			"transliteration": "Usholli fardlon dhuhri arba'a rok'aataim mustaqbilal qiblati adaa-an lillahi ta'aala",
+			"translation": "Aku niat melakukan sholat fardu dhuhur empat rakaat, sambil menghadap qiblat, saat ini, karena Allah ta'ala"
+		},
+		{
+			"id": 3,
+			"arab": "أُصَلِّى فَرْضَ العَصْرِأَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى",
+			"name": "Niat Sholat Ashar",
+			"transliteration": "Usholli fardlon ashri arba'a rok'aataim mustaqbilal qiblati adaa-an lillahi ta'aala",
+			"translation": "Aku niat melakukan sholat fardu ashar empat rakaat, sambil menghadap qiblat, saat ini, karena Allah ta'ala"
+		},
+		{
+			"id": 4,
+			"arab": "أُصَلِّى فَرْضَ المَغْرِبِ ثَلاَثَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَ",
+			"name": "Niat Sholat Maghrib",
+			"transliteration": "Usholli fardlol maghribi tsalaatsa roka'aataim mustaqbilal qiblati adaa-an lillahi ta'aala",
+			"translation": "Aku niat melakukan sholat fardu maghrib tiga rakaat, sambil menghadap qiblat, saat ini, karena Allah ta'ala"
+		},
+		{
+			"id": 5,
+			"arab": "أُصَلِّى فَرْضَ العِشَاء ِأَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى",
+			"name": "Niat Sholat Isya",
+			"transliteration": "Usholli fardlol i'syaa-i arba'a roka'aataim mustaqbilal qiblati adaa-an lillahi ta'aala",
+			"translation": "Aku niat melakukan sholat fardu isya empat rakaat, sambil menghadap qiblat, saat ini, karena Allah ta'ala"
+		},
+		{
+			"id": 6,
+			"arab": "اُصَلِّى سُنَّةَ الضَّحٰى رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ اَدَاءً ِللهِ تَعَالَى",
+			"name": "Niat Sholat Dhuha",
+			"transliteration": "Ushalli Sunnatadh-dhuhaa rak'ataini lillaahi ta'aalaa",
+			"translation": "Aku niat sholat sunat dhuha dua rakaat, karena Allah ta'ala"
+		},
+		{
+			"id": 7,
+			"arab": "اُصَلِّى سُنَّةً التَّهَجُّدِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ ِللهِ تَعَالَى",
+			"name": "Niat Sholat Tahajud",
+			"transliteration": "Ushallii sunnatan tahajjudi rak'ataini mustaqbilal qiblati lillahi ta'alla",
+			"translation": "Aku niat sholat sunat tahajud 2 rakaat, menghadap kiblat, karena Allah Ta'ala"
+		},
+		{
+			"id": 8,
+			"arab": "اُصَلِّى سُنَّةَ الْوِتْرِ ثَلَاثَ رَكْعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلهِ تَعَالَى",
+			"name": "Niat Sholat Witir",
+			"transliteration": "Ushalli sunnatal witri tsalâtsa raka'âtin mustaqbilal qiblati adâ'an lillâhi ta'âlâ",
+			"translation": "Aku niat sholat sunat witir tiga rakaat dengan menghadap kiblat, karena Allah Ta'ala"
+		},
+		{
+			"id": 9,
+			"arab": "اُصَلِّى سُنَّةً تَحِيَّةَ الْمَسْجِدِ رَكْعَتَيْنِ لِلّٰهِ تَعَالَى",
+			"name": "Niat Sholat Tahiyatul Masjid",
+			"transliteration": "Usholli sunnatan tahiyyatal masjidi rok'ataini lillaahi ta'aalaa",
+			"translation": "Aku niat shalat tahiyatul masjid dua rakaat karena Allah ta'ala"
+		},
+		{
+			"id": 10,
+			"arab": "اُصَلِّى سُنَّةً الأَوَّابِينَ رَكَعَتَيْنِ ِللهِ تَعَالَى",
+			"name": "Niat Sholat Awwabin",
+			"transliteration": "Ushalli sunnatal awwabiina rak'ataini lillahi ta'aalaa",
+			"translation": "Aku niat shalat sunah awwabin dua rakaat karena Allah ta'ala"
+		},
+		{
+			"id": 11,
+			"arab": "أُصَلِّي عَلَى مَيِّتِ (فُلَانِ) الْغَائِبِ أَرْبَعَ تَكْبِيرَاتٍ فَرْضَ الْكِفَايَةِ إِمَامًا/مَأْمُومًا لِلّٰهِ تَعَالَى",
+			"name": "Niat Sholat Ghaib",
+			"transliteration": "Ushallî ‘alâ mayyiti (fulân) al-ghâ-ibi arba’a takbîrâtin fardhal kifayâti imâman/ma’mûman lillâhi ta’âlâ",
+			"translation": "Aku menyalati jenazah ‘Si Fulan (sebutkan namanya)’ yang berada di tempat lain empat takbir dengan hukum fardhu kifâyah sebagai imam/makmum karena Allah ta’âlâ"
+		},
+		{
+			"id": 12,
+			"arab": "اُصَلِّى سُنَّةَ الْحَاجَةِ رَكْعَتَيْنِ لِلهِ تَعَالَى",
+			"name": "Niat Sholat Hajat",
+			"transliteration": "Usholli sunnatal-haajati rok’atayni lillahi ta’aala",
+			"translation": "Aku berniat sholat sunnah hajat dua roka’at karena Allah Ta’aala"
+		},
+		{
+			"id": 13,
+			"arab": "اُصَلِّى سُنَّةً عِيْدِ الْفِطْرِ رَكْعَتَيْنِ مَأْمُوْمًا للهِ تَعَالَى",
+			"name": "Niat Sholat Idul Fitri",
+			"transliteration": "Usholli sunnatan ‘iidil fithri rok’ataini ma’muuman lillaahi ta’aalaa",
+			"translation": "Aku niat sholat sunnah idul fitri dua raka’at sebagai ma’mum karena Allah Ta’ala"
+		},
+		{
+			"id": 14,
+			"arab": "اُصَلِّى سُنَّةً عِيْدِ الْأَضْحَى رَكْعَتَيْنِ مَأْمُوْمًا للهِ تَعَالَى",
+			"name": "Niat Sholat Idul Adha",
+			"transliteration": "Usholli sunnatan ‘iidil adha rok’ataini ma’muuman lillaahi ta’aalaa",
+			"translation": "Aku niat sholat sunnah idul adha dua raka’at sebagai ma’mum karena Allah Ta’ala"
+		},
+		{
+			"id": 15,
+			"arab": "أُصَلِّيْ سُنَّةَ الاِسْتِخَارَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى",
+			"name": "Niat Sholat Istikharah",
+			"transliteration": "Ushollii sunnatal istikhooroti rok’ataini lillaahi ta’aalaa",
+			"translation": "Aku niat shalat sunnah istikharah dua raka’at karena Allah Ta’ala"
+		},
+		{
+			"id": 16,
+			"arab": "أُصَلِّيْ سُنَّةَ التَّرَاوِيْحِ رَكْعَتَيْنِ مَأْمُوْمًا لِلَّهِ تَعَالَى",
+			"name": "Niat Sholat Tarawih",
+			"transliteration": "Usholli sunnatat taroowihi rok’ataini ma’muuman lillahi ta’aalaa",
+			"translation": "Aku niat sholat sunnah tarawih dua rakaat sebagai makmum karena Allah Ta’ala"
+		},
+		{
+			"id": 17,
+			"arab": "أُصَلِّيْ سُنَّةَ التَّوْبَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى",
+			"name": "Niat Sholat Taubat",
+			"transliteration": "Ushollii sunnatat taubati rok’ataini lillaahi ta’aalaa",
+			"translation": "Aku niat sholat sunnah taubat dua raka’at karena Allah Ta’ala"
+		},
+		{
+			"id": 18,
+			"arab": "أُصَلِّيْ سُنَّةَ الاِسْتِسْقَاءِ رَكْعَتَيْنِ مَأْمُوْمًا لِلهِ تَعَالَى",
+			"name": "Niat Sholat Istisqa",
+			"transliteration": "Ushallī sunnatal istisqā’i rak‘ataini (imaaman/ma’mūman) lillāhi ta‘ālā",
+			"translation": "Aku menyengaja salat sunnah minta hujan dua rakaat (sebagai imam/makmum) karena Allah"
+		},
+		{
+			"id": 19,
+			"arab": "أُصَلِّي سُنَّةَ السَّفَرِ رَكْعَتَيْنِ لِلّٰهِ تَعَالَى",
+			"name": "Niat Sholat Safar",
+			"transliteration": "Ushalliî sunnatas safari rak’ataini lillâhi ta’âla",
+			"translation": "Aku niat shalat sunnah perjalanan dua rakaat karena Allah ta’âla"
+		},
+		{
+			"id": 20,
+			"arab": "أُصَلِّي عَلَى هَذَا الـمَيِّتِ فَرْضًا للهِ تَعَالَى",
+			"name": "Niat Sholat Jenazah (Laki-Laki)",
+			"transliteration": "Usholli ‘ala hadzal mayyiti fardholi ma’muman lillahi ta’ala",
+			"translation": "Aku niat shalat atas mayit laki-laki ini fardhu karena Allah ta'ala"
+		},
+		{
+			"id": 21,
+			"arab": "أُصَلِّي عَلَى هَذَا الـمَيِّتَةِ فَرْضًا للهِ تَعَالَى",
+			"name": "Niat Sholat Jenazah (Perempuan)",
+			"transliteration": "Usholli ‘ala hadzal mayyiti fardholi ma’muman lillahi ta’ala",
+			"translation": "Aku niat shalat atas mayit perempuan ini fardhu karena Allah ta'ala"
+		},
+		{
+			"id": 22,
+			"arab": "أُصَلِّيْ سُنَّةَ لِكُسُوْفِ الشَّمسِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى",
+			"name": "Niat Sholat Gerhana Matahari",
+			"transliteration": "Ushalli Sunnata Kusufi Syamsi rak’ataini makmuman/imaaman lillahi ta’ala",
+			"translation": "Aku niat shalat sunah Kusuf dua rakaat (sebagai iman/makmum) karena Allah ta'ala"
+		},
+		{
+			"id": 23,
+			"arab": "أُصَلِّي سُنَّةَ الخُسُوفِ رَكْعَتَيْنِ إِمَامً/مَأمُومًا لله تَعَالَى",
+			"name": "Niat Sholat Gerhana Bulan",
+			"transliteration": "Ushalli sunnatal khusuf rak'ataini imaman/makmuman lillahi ta’ala",
+			"translation": "Aku shalat sunah gerhana bulan dua rakaat sebagai imam/makmum karena Allah ta'ala"
+		},
+		{
+			"id": 24,
+			"arab": "اُصَلِّى سُنَّةً الْوُضُوءِ رَكْعَتَيْنِ لِلّٰهِ تَعَالَى",
+			"name": "Niat Sholat Wudhu",
+			"transliteration": "Ushollii sunnatal wudhuu’i rok’ataini lillaahi ta’aalaa",
+			"translation": "Aku niat shalat sunnah wudhu dua rakaat karena Allah Ta’ala"
+		}
+	]
+}

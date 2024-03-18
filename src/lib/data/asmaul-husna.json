@@ -1,0 +1,593 @@
+{
+	"data": [
+		{
+			"arab": "الرحمن",
+			"translation": "Yang Maha Pengasih",
+			"transliteration": "Ar Rahman",
+			"id": 1
+		},
+		{
+			"arab": "الرحيم",
+			"translation": "Yang Maha Penyayang",
+			"transliteration": "Ar Rahiim",
+			"id": 2
+		},
+		{
+			"arab": "الملك",
+			"translation": "Yang Maha Merajai / Memerintah",
+			"transliteration": "Al Malik",
+			"id": 3
+		},
+		{
+			"arab": "القدوس",
+			"translation": "Yang Maha Suci",
+			"transliteration": "Al Quddus",
+			"id": 4
+		},
+		{
+			"arab": "السلام",
+			"translation": "Yang Maha Memberi Kesejahteraan",
+			"transliteration": "As Salaam",
+			"id": 5
+		},
+		{
+			"arab": "المؤمن",
+			"translation": "Yang Maha Memberi Keamanan",
+			"transliteration": "Al Mu 'min",
+			"id": 6
+		},
+		{
+			"arab": "المهيمن",
+			"translation": "Yang Maha Pemelihara",
+			"transliteration": "Al Muhaimin",
+			"id": 7
+		},
+		{
+			"arab": "العزيز",
+			"translation": "Yang Maha Perkasa",
+			"transliteration": "Al 'Aziiz",
+			"id": 8
+		},
+		{
+			"arab": "الجبار",
+			"translation": "Yang Memiliki Mutlak Kegagahan",
+			"transliteration": "Al Jabbar",
+			"id": 9
+		},
+		{
+			"arab": "المتكبر",
+			"translation": "Yang Maha Megah, Yang Memiliki Kebesaran",
+			"transliteration": "Al Mutakabbir",
+			"id": 10
+		},
+		{
+			"arab": "الخالق",
+			"translation": "Yang Maha Pencipta",
+			"transliteration": "Al Khaliq",
+			"id": 11
+		},
+		{
+			"arab": "البارئ",
+			"translation": "Yang Maha Melepaskan(Membuat, Membentuk, Menyeimbangkan)",
+			"transliteration": "Al Baari '",
+			"id": 12
+		},
+		{
+			"arab": "المصور",
+			"translation": "Yang Maha Membentuk Rupa(makhluknya)",
+			"transliteration": "Al Mushawwir",
+			"id": 13
+		},
+		{
+			"arab": "الغفار",
+			"translation": "Yang Maha Pengampun",
+			"transliteration": "Al Ghaffaar",
+			"id": 14
+		},
+		{
+			"arab": "القهار",
+			"translation": "Yang Maha Memaksa",
+			"transliteration": "Al Qahhaar",
+			"id": 15
+		},
+		{
+			"arab": "الوهاب",
+			"translation": "Yang Maha Pemberi Karunia",
+			"transliteration": "Al Wahhaab",
+			"id": 16
+		},
+		{
+			"arab": "الرزاق",
+			"translation": "Yang Maha Pemberi Rezeki",
+			"transliteration": "Ar Razzaaq",
+			"id": 17
+		},
+		{
+			"arab": "الفتاح",
+			"translation": "Yang Maha Pembuka Rahmat",
+			"transliteration": "Al Fattaah",
+			"id": 18
+		},
+		{
+			"arab": "العليم",
+			"translation": "Yang Maha Mengetahui(Memiliki Ilmu)",
+			"transliteration": "Al 'Aliim",
+			"id": 19
+		},
+		{
+			"arab": "القابض",
+			"translation": "Yang Maha Menyempitkan(makhluknya)",
+			"transliteration": "Al Qaabidh",
+			"id": 20
+		},
+		{
+			"arab": "الباسط",
+			"translation": "Yang Maha Melapangkan(makhluknya)",
+			"transliteration": "Al Baasith",
+			"id": 21
+		},
+		{
+			"arab": "الخافض",
+			"translation": "Yang Maha Merendahkan(makhluknya)",
+			"transliteration": "Al Khaafidh",
+			"id": 22
+		},
+		{
+			"arab": "الرافع",
+			"translation": "Yang Maha Meninggikan(makhluknya)",
+			"transliteration": "Ar Raafi '",
+			"id": 23
+		},
+		{
+			"arab": "المعز",
+			"translation": "Yang Maha Memuliakan(makhluknya)",
+			"transliteration": "Al Mu'izz",
+			"id": 24
+		},
+		{
+			"arab": "المذل",
+			"translation": "Yang Maha Menghinakan(makhluknya)",
+			"transliteration": "Al Mudzil",
+			"id": 25
+		},
+		{
+			"arab": "السميع",
+			"translation": "Yang Maha Mendengar",
+			"transliteration": "Al Samii '",
+			"id": 26
+		},
+		{
+			"arab": "البصير",
+			"translation": "Yang Maha Melihat",
+			"transliteration": "Al Bashiir",
+			"id": 27
+		},
+		{
+			"arab": "الحكم",
+			"translation": "Yang Maha Menetapkan",
+			"transliteration": "Al Hakam",
+			"id": 28
+		},
+		{
+			"arab": "العدل",
+			"translation": "Yang Maha Adil",
+			"transliteration": "Al 'Adl",
+			"id": 29
+		},
+		{
+			"arab": "اللطيف",
+			"translation": "Yang Maha Lembut",
+			"transliteration": "Al Lathiif",
+			"id": 30
+		},
+		{
+			"arab": "الخبير",
+			"translation": "Yang Maha Mengenal",
+			"transliteration": "Al Khabiir",
+			"id": 31
+		},
+		{
+			"arab": "الحليم",
+			"translation": "Yang Maha Penyantun",
+			"transliteration": "Al Haliim",
+			"id": 32
+		},
+		{
+			"arab": "العظيم",
+			"translation": "Yang Maha Agung",
+			"transliteration": "Al 'Azhiim",
+			"id": 33
+		},
+		{
+			"arab": "الغفور",
+			"translation": "Yang Maha Pengampun",
+			"transliteration": "Al Ghafuur",
+			"id": 34
+		},
+		{
+			"arab": "الشكور",
+			"translation": "Yang Maha Pembalas Budi(Menghargai)",
+			"transliteration": "As Syakuur",
+			"id": 35
+		},
+		{
+			"arab": "العلى",
+			"translation": "Yang Maha Tinggi",
+			"transliteration": "Al 'Aliy",
+			"id": 36
+		},
+		{
+			"arab": "الكبير",
+			"translation": "Yang Maha Besar",
+			"transliteration": "Al Kabiir",
+			"id": 37
+		},
+		{
+			"arab": "الحفيظ",
+			"translation": "Yang Maha Memelihara",
+			"transliteration": "Al Hafizh",
+			"id": 38
+		},
+		{
+			"arab": "المقيت",
+			"translation": "Yang Maha Pemberi Kecukupan",
+			"transliteration": "Al Muqiit",
+			"id": 39
+		},
+		{
+			"arab": "الحسيب",
+			"translation": "Yang Maha Membuat Perhitungan",
+			"transliteration": "Al Hasiib",
+			"id": 40
+		},
+		{
+			"arab": "الجليل",
+			"translation": "Yang Maha Mulia",
+			"transliteration": "Al Jaliil",
+			"id": 41
+		},
+		{
+			"arab": "الكريم",
+			"translation": "Yang Maha Mulia",
+			"transliteration": "Al Kariim",
+			"id": 42
+		},
+		{
+			"arab": "الرقيب",
+			"translation": "Yang Maha Mengawasi",
+			"transliteration": "Ar Raqiib",
+			"id": 43
+		},
+		{
+			"arab": "المجيب",
+			"translation": "Yang Maha Mengabulkan",
+			"transliteration": "Al Mujiib",
+			"id": 44
+		},
+		{
+			"arab": "الواسع",
+			"translation": "Yang Maha Luas",
+			"transliteration": "Al Waasi '",
+			"id": 45
+		},
+		{
+			"arab": "الحكيم",
+			"translation": "Yang Maha Maka Bijaksana",
+			"transliteration": "Al Hakiim",
+			"id": 46
+		},
+		{
+			"arab": "الودود",
+			"translation": "Yang Maha Mengasihi",
+			"transliteration": "Al Waduud",
+			"id": 47
+		},
+		{
+			"arab": "المجيد",
+			"translation": "Yang Maha Mulia",
+			"transliteration": "Al Majiid",
+			"id": 48
+		},
+		{
+			"arab": "الباعث",
+			"translation": "Yang Maha Membangkitkan",
+			"transliteration": "Al Baa'its",
+			"id": 49
+		},
+		{
+			"arab": "الشهيد",
+			"translation": "Yang Maha Menyaksikan",
+			"transliteration": "As Syahiid",
+			"id": 50
+		},
+		{
+			"arab": "الحق",
+			"translation": "Yang Maha Benar",
+			"transliteration": "Al Haqq",
+			"id": 51
+		},
+		{
+			"arab": "الوكيل",
+			"translation": "Yang Maha Memelihara",
+			"transliteration": "Al Wakiil",
+			"id": 52
+		},
+		{
+			"arab": "القوى",
+			"translation": "Yang Maha Kuat",
+			"transliteration": "Al Qawiyyu",
+			"id": 53
+		},
+		{
+			"arab": "المتين",
+			"translation": "Yang Maha Kokoh",
+			"transliteration": "Al Matiin",
+			"id": 54
+		},
+		{
+			"arab": "الولى",
+			"translation": "Yang Maha Melindungi",
+			"transliteration": "Al Waliyy",
+			"id": 55
+		},
+		{
+			"arab": "الحميد",
+			"translation": "Yang Maha Terpuji",
+			"transliteration": "Al Hamiid",
+			"id": 56
+		},
+		{
+			"arab": "المحصى",
+			"translation": "Yang Maha Mengalkulasi(Menghitung Segala Sesuatu)",
+			"transliteration": "Al Muhshii",
+			"id": 57
+		},
+		{
+			"arab": "المبدئ",
+			"translation": "Yang Maha Memulai",
+			"transliteration": "Al Mubdi '",
+			"id": 58
+		},
+		{
+			"arab": "المعيد",
+			"translation": "Yang Maha Mengembalikan Kehidupan",
+			"transliteration": "Al Mu'iid",
+			"id": 59
+		},
+		{
+			"arab": "المحيى",
+			"translation": "Yang Maha Menghidupkan",
+			"transliteration": "Al Muhyii",
+			"id": 60
+		},
+		{
+			"arab": "المميت",
+			"translation": "Yang Maha Mematikan",
+			"transliteration": "Al Mumiitu",
+			"id": 61
+		},
+		{
+			"arab": "الحي",
+			"translation": "Yang Maha Hidup",
+			"transliteration": "Al Hayyu",
+			"id": 62
+		},
+		{
+			"arab": "القيوم",
+			"translation": "Yang Maha Mandiri",
+			"transliteration": "Al Qayyuum",
+			"id": 63
+		},
+		{
+			"arab": "الواجد",
+			"translation": "Yang Maha Penemu",
+			"transliteration": "Al Waajid",
+			"id": 64
+		},
+		{
+			"arab": "الماجد",
+			"translation": "Yang Maha Mulia",
+			"transliteration": "Al Maajid",
+			"id": 65
+		},
+		{
+			"arab": "الواحد",
+			"translation": "Yang Maha Tunggal",
+			"transliteration": "Al Wahiid",
+			"id": 66
+		},
+		{ "arab": "الاحد", "translation": "Yang Maha Esa", "transliteration": "Al Ahad", "id": 67 },
+		{
+			"arab": "الصمد",
+			"translation": "Yang Maha Dibutuhkan, Tempat Meminta",
+			"transliteration": "As Shamad",
+			"id": 68
+		},
+		{
+			"arab": "القادر",
+			"translation": "Yang Maha Menentukan, Maha Menyeimbangkan",
+			"transliteration": "Al Qaadir",
+			"id": 69
+		},
+		{
+			"arab": "المقتدر",
+			"translation": "Yang Maha Berkuasa",
+			"transliteration": "Al Muqtadir",
+			"id": 70
+		},
+		{
+			"arab": "المقدم",
+			"translation": "Yang Maha Mendahulukan",
+			"transliteration": "Al Muqaddim",
+			"id": 71
+		},
+		{
+			"arab": "المؤخر",
+			"translation": "Yang Maha Mengakhirkan",
+			"transliteration": "Al Mu 'akkhir",
+			"id": 72
+		},
+		{
+			"arab": "الأول",
+			"translation": "Yang Maha Awal",
+			"transliteration": "Al Awwal",
+			"id": 73
+		},
+		{
+			"arab": "الأخر",
+			"translation": "Yang Maha Akhir",
+			"transliteration": "Al Aakhir",
+			"id": 74
+		},
+		{
+			"arab": "الظاهر",
+			"translation": "Yang Maha Nyata",
+			"transliteration": "Az Zhaahir",
+			"id": 75
+		},
+		{
+			"arab": "الباطن",
+			"translation": "Yang Maha Ghaib",
+			"transliteration": "Al Baathin",
+			"id": 76
+		},
+		{
+			"arab": "الوالي",
+			"translation": "Yang Maha Memerintah",
+			"transliteration": "Al Waali",
+			"id": 77
+		},
+		{
+			"arab": "المتعالي",
+			"translation": "Yang Maha Tinggi",
+			"transliteration": "Al Muta'aalii",
+			"id": 78
+		},
+		{
+			"arab": "البر",
+			"translation": "Yang Maha Penderma(Maha Pemberi Kebajikan)",
+			"transliteration": "Al Barru",
+			"id": 79
+		},
+		{
+			"arab": "التواب",
+			"translation": "Yang Maha Penerima Tobat",
+			"transliteration": "At Tawwaab",
+			"id": 80
+		},
+		{
+			"arab": "المنتقم",
+			"translation": "Yang Maha Pemberi Balasan",
+			"transliteration": "Al Muntaqim",
+			"id": 81
+		},
+		{
+			"arab": "العفو",
+			"translation": "Yang Maha Pemaaf",
+			"transliteration": "Al Afuww",
+			"id": 82
+		},
+		{
+			"arab": "الرؤوف",
+			"translation": "Yang Maha Pengasuh",
+			"transliteration": "Ar Ra 'uuf",
+			"id": 83
+		},
+		{
+			"arab": "مالك الملك",
+			"translation": "Yang Maha Penguasa Kerajaan(Semesta)",
+			"transliteration": "Malikul Mulk",
+			"id": 84
+		},
+		{
+			"arab": "ذو الجلال و الإكرام",
+			"translation": "Yang Maha Pemilik Kebesaran dan Kemuliaan",
+			"transliteration": "Dzul Jalaali Wal Ikraam",
+			"id": 85
+		},
+		{
+			"arab": "المقسط",
+			"translation": "Yang Maha Pemberi Keadilan",
+			"transliteration": "Al Muqsith",
+			"id": 86
+		},
+		{
+			"arab": "الجامع",
+			"translation": "Yang Maha Mengumpulkan",
+			"transliteration": "Al Jamii'",
+			"id": 87
+		},
+		{
+			"arab": "الغنى",
+			"translation": "Yang Maha Kaya",
+			"transliteration": "Al Ghaniyy",
+			"id": 88
+		},
+		{
+			"arab": "المغنى",
+			"translation": "Yang Maha Pemberi Kekayaan",
+			"transliteration": "Al Mughnii",
+			"id": 89
+		},
+		{
+			"arab": "المانع",
+			"translation": "Yang Maha Mencegah",
+			"transliteration": "Al Maani",
+			"id": 90
+		},
+		{
+			"arab": "الضار",
+			"translation": "Yang Maha Penimpa Kemudharatan",
+			"transliteration": "Ad Dhaar",
+			"id": 91
+		},
+		{
+			"arab": "النافع",
+			"translation": "Yang Maha Memberi Manfaat",
+			"transliteration": "An Nafii",
+			"id": 92
+		},
+		{
+			"arab": "النور",
+			"translation": "Yang Maha Bercahaya(Menerangi, Memberi Cahaya)",
+			"transliteration": "An Nuur",
+			"id": 93
+		},
+		{
+			"arab": "الهادئ",
+			"translation": "Yang Maha Pemberi Petunjuk",
+			"transliteration": "Al Haadii",
+			"id": 94
+		},
+		{
+			"arab": "البديع",
+			"translation": "Yang Maha Pencipta Yang Tiada Bandingannya",
+			"transliteration": "Al Badii'",
+			"id": 95
+		},
+		{
+			"arab": "الباقي",
+			"translation": "Yang Maha Kekal",
+			"transliteration": "Al Baaqii",
+			"id": 96
+		},
+		{
+			"arab": "الوارث",
+			"translation": "Yang Maha Pewaris",
+			"transliteration": "Al Waarits",
+			"id": 97
+		},
+		{
+			"arab": "الرشيد",
+			"translation": "Yang Maha Pandai",
+			"transliteration": "Ar Rasyiid",
+			"id": 98
+		},
+		{
+			"arab": "الصبور",
+			"translation": "Yang Maha Sabar",
+			"transliteration": "As Shabuur",
+			"id": 99
+		}
+	]
+}
