@@ -48,7 +48,7 @@ const prayerIntentionsMeta = () => {
 
 export const GET = async () => {
 	return await sitemap.response({
-		origin: 'https://quranible.vercel.app',
+		origin: 'https://quranible-v2.vercel.app',
 		paramValues: {
 			'/read/[id]/[slug]': surahsMeta(),
 			'/daily-prayers/[id]/[slug]': dailyPrayersMeta(),
