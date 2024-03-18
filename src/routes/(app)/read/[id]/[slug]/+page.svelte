@@ -56,9 +56,9 @@
 
 <svelte:window bind:scrollY />
 
-<section id="surah" class="min-h-dvh py-5">
+<section id="surah" class="min-h-dvh py-8">
 	{#if surah.number != 1}
-		<h1 class="text-center text-4xl md:text-5xl mb-14 md:mb-20 font-arabic">
+		<h1 class="text-center text-4xl md:text-5xl mt-5 mb-14 md:mb-20 font-arabic">
 			بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
 		</h1>
 	{/if}
