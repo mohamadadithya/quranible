@@ -33,23 +33,6 @@ npm run build
   * Theme
   * Show/Hide transliteration
   * Ayah audio auto scroll
-- [x] PWA
-
-## Version History
-
-* 0.0.1
-    * Initial Release
-* 0.0.2
-    * Add PWA feature
-    * Fix some bugs
-
-## Resources
-* API: https://api.quran.gading.dev
-* Icons: https://fontawesome.com
-
-## Tech Stacks
-* SvelteKit
-* TailwindCSS
 
 ## License
 
