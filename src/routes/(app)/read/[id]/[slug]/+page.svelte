@@ -30,7 +30,7 @@
 		if (nextSurah) {
 			playSurah(nextSurah.audio.primary, nextSurah.number.inSurah);
 
-			if ($isEnabledAutoScroll) window.location.hash = `#${verseId}`;
+			if ($isEnabledAutoScroll) window.location.hash = `#verse-${verseId}`;
 		}
 	};
 
