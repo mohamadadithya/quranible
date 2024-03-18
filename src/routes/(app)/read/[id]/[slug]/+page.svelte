@@ -94,11 +94,13 @@
 			</div>
 		{/if}
 		{#if nextSurah}
-			<div class="flex items-center justify-end gap-2 mb-3">
-				<p>Surah Selanjutnya</p>
-				<Icon class="text-2xl" icon="mdi:arrow-right" />
+			<div>
+				<div class="flex items-center justify-end gap-2 mb-3">
+					<p>Surah Selanjutnya</p>
+					<Icon class="text-2xl" icon="mdi:arrow-right" />
+				</div>
+				<SurahCard surah={nextSurah} />
 			</div>
-			<SurahCard surah={nextSurah} />
 		{/if}
 	</div>
 </section>
