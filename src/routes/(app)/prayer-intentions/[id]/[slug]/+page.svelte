@@ -29,7 +29,7 @@
 		{#each otherIntentions as intention, index}
 			<a
 				href="/prayer-intentions/{intention.id}/{slugify(intention.name)}"
-				class="block p-5 shadow-xl border border-slate-700 rounded-xl hover:bg-slate-800 duration-300 text-sm"
+				class="block p-5 shadow-xl border border-gray-700 rounded-xl hover:bg-gray-800 duration-300 text-sm"
 			>
 				<p>{index + 1}. {intention.name}</p>
 			</a>

@@ -108,7 +108,7 @@
 	title="Scroll to Top"
 	on:click={() => (scrollY = 0)}
 	class:over-scroll={scrollY > 500}
-	class="fixed bottom-8 right-4 transition-opacity duration-300 bg-slate-800 rounded-full text-white w-12 h-12 grid place-items-center"
+	class="fixed bottom-8 right-4 transition-opacity duration-300 bg-gray-800 rounded-full text-white w-12 h-12 grid place-items-center"
 >
 	<Icon class="text-3xl" icon="mdi:chevron-up" />
 </button>

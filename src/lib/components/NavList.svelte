@@ -4,7 +4,7 @@
 	export let icon, url, name;
 </script>
 
-<li class="border-b-2 border-slate-600 py-5">
+<li class="border-b-2 border-gray-600 py-5">
 	<a class="flex items-center gap-2" href={url} title={name} on:click>
 		<Icon class="text-3xl" {icon} />
 		{name}
