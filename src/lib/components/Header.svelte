@@ -70,13 +70,6 @@
 			</li>
 		</ul>
 	</div>
-	<p class="text-xs mb-6">
-		&copy; 2024 <a
-			href="https://github.com/mohamadadithya"
-			aria-label="Web's author link"
-			title="Mohamad Adithya">Mohamad Adithya</a
-		>
-	</p>
 </nav>
 
 <style>

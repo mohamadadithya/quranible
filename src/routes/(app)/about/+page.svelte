@@ -9,4 +9,12 @@
 <section class="min-h-dvh py-8">
 	<Heading title="Tentang" />
 	<p>{PUBLIC_SITE_NAME} adalah aplikasi web Al-Quran yang dilengkapi dengan terjemahan.</p>
+	<p>
+		Dibuat dengan cinta oleh <a
+			href="https://github.com/mohamadadithya"
+			target="_blank"
+			rel="noreferrer"
+			class="font-semibold">Mohamad Adithya</a
+		>
+	</p>
 </section>
