@@ -17,7 +17,7 @@
 
 <MetaTags title="Pengaturan" />
 
-<section class="min-h-dvh py-5">
+<section class="min-h-dvh py-8">
 	<Heading title="Pengaturan" />
 	<h5 class="mb-4 font-medium mt-8">Pilihan Tema</h5>
 	<select name="theme" id="theme" class="select select-bordered w-full mb-5" bind:value={$theme}>

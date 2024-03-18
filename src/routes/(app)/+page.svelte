@@ -19,7 +19,7 @@
 
 <MetaTags title={PUBLIC_SITE_NAME} />
 
-<section class="min-h-dvh py-5">
+<section class="min-h-dvh py-8">
 	<div
 		class="flex items-center border-2 border-transparent focus-within:border-gray-700 shadow-lg p-4 rounded-xl"
 	>

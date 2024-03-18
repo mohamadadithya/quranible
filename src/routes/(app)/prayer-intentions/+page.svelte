@@ -14,7 +14,7 @@
 	keywords={['niat', 'niat solat', 'niat-niat solat']}
 />
 
-<section class="min-h-dvh py-5">
+<section class="min-h-dvh py-8">
 	<Heading title="Niat Sholat" />
 	<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
 		{#each prayerIntentions as intention, index}

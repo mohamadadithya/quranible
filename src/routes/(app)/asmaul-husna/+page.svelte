@@ -9,7 +9,7 @@
 
 <MetaTags title="Asmaul Husna" keywords={['asmaul husna', 'nama nama Allah']} />
 
-<section class="min-h-dvh py-5">
+<section class="min-h-dvh py-8">
 	<Heading title="Asmaul Husna" />
 	<div class="grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-3 lg:grid-cols-4 mt-10">
 		{#each allAsmaulHusna as goodName}

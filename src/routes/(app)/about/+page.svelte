@@ -6,7 +6,7 @@
 
 <MetaTags title="Tentang" description="Deskripsi singkat mengenai aplikasi {PUBLIC_SITE_NAME}" />
 
-<section class="min-h-dvh py-5">
+<section class="min-h-dvh py-8">
 	<Heading title="Tentang" />
 	<p>{PUBLIC_SITE_NAME} adalah aplikasi web Al-Quran yang dilengkapi dengan terjemahan.</p>
 </section>

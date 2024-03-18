@@ -14,7 +14,7 @@
 	keywords={['doa harian', 'doa-doa']}
 />
 
-<section class="min-h-dvh py-5">
+<section class="min-h-dvh py-8">
 	<Heading title="Doa Harian" />
 	<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
 		{#each dailyPrayers as prayer, index}

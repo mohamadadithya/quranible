@@ -11,7 +11,7 @@
 
 <MetaTags title="Penanda Surah" />
 
-<section class="min-h-dvh py-5">
+<section class="min-h-dvh py-8">
 	<Heading title="Penanda Surah" />
 	{#if filteredVerses.length > 0}
 		{#each filteredVerses as verse, index}

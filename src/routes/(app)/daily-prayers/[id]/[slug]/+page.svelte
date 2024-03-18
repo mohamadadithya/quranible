@@ -15,7 +15,7 @@
 
 <MetaTags title={prayer.name} />
 
-<section class="min-h-dvh py-5">
+<section class="min-h-dvh py-8">
 	<h1 class="text-2xl md:text-3xl font-bold mb-10 capitalize">{prayer.name}</h1>
 	<p class="text-3xl md:text-4xl arab-font text-right mb-10 leading-extra">{prayer.arab}</p>
 	<p class="text-gray-500 text-sm mb-2">{prayer.transliteration}</p>
