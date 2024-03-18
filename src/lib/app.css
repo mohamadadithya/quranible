@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-	@apply scroll-p-20 text-sm sm:text-base;
+	@apply scroll-smooth scroll-p-20 text-sm sm:text-base;
 }
 
 @font-face {
