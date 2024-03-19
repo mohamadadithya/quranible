@@ -12,9 +12,7 @@
 		filteredSurahs = [...surahs];
 
 	const filterSurahs = () =>
-		surahs.filter((surah) =>
-			surah.name.transliteration.id.toLowerCase().includes(keyword.toLowerCase())
-		);
+		surahs.filter((surah) => surah.name.toLowerCase().includes(keyword.toLowerCase()));
 
 	$: filteredSurahs = keyword ? filterSurahs() : [...surahs];
 </script>

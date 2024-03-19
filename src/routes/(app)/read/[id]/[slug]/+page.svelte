@@ -49,6 +49,7 @@
 
 <MetaTags
 	title="Surah {surah.name.transliteration.id}"
+	description={surah.tafsir.id}
 	keywords={[`surah ${surah.name.transliteration.id}`, `surah ke-${surah.number} dalam al-quran`]}
 />
 
