@@ -102,10 +102,10 @@
 	></div>
 	<div
 		transition:fly={{ duration: 450, y: 500 }}
-		class="w-full max-w-xl bg-white fixed bottom-0 left-2/4 -translate-x-2/4 overflow-y-auto max-h-[60dvh] z-[1] shadow-xl rounded-t-3xl border"
+		class="w-full max-w-xl bg-base-100 fixed bottom-0 left-2/4 -translate-x-2/4 overflow-y-auto max-h-[60dvh] z-[1] shadow-xl rounded-t-3xl"
 	>
 		<div class="p-5 pt-0">
-			<div class="flex justify-between items-center gap-3 sticky top-0 py-4 bg-white">
+			<div class="flex justify-between items-center gap-3 sticky top-0 py-4 bg-base-100">
 				<p class="text-lg font-semibold">Tafsir Ayat</p>
 				<button type="button" class="Back" on:click={() => (isOpenTafsirPanel = false)}>
 					<Icon icon="mdi:close" class="text-3xl" />
