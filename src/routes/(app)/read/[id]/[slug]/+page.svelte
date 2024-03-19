@@ -5,6 +5,7 @@
 	import { isEnabledAutoScroll } from '@stores/settings';
 	import { MetaTags } from 'svelte-meta-tags';
 	import { toast } from 'svelte-sonner';
+	import { state, sourceUrl, verseId } from '@stores/audio';
 
 	export let data;
 
@@ -12,34 +13,31 @@
 		nextSurah = data.nextSurah,
 		prevSurah = data.prevSurah,
 		scrollY = 0,
-		verseId: number,
-		audioSource: string,
-		audioState: 'playing' | 'paused' | 'loading',
 		isPausedAudio = true;
 
 	const playNextVerse = () => {
-		verseId += 1;
+		$verseId += 1;
 
 		if (!surah.verses) {
 			toast.error('Oops, tidak dapat memutar audio');
 			return;
 		}
 
-		const nextSurah = surah.verses.find((verse) => verse.number.inSurah == verseId);
+		const nextSurah = surah.verses.find((verse) => verse.number.inSurah === $verseId);
 
 		if (nextSurah) {
 			playSurah(nextSurah.audio.primary, nextSurah.number.inSurah);
 
-			if ($isEnabledAutoScroll) window.location.hash = `#verse-${verseId}`;
+			if ($isEnabledAutoScroll) location.hash = `#verse-${$verseId}`;
 		}
 	};
 
-	const playSurah = async (source: string, verseId: number) => {
-		verseId = verseId;
-		audioSource = source;
+	const playSurah = async (source: string, id: number) => {
+		$verseId = id;
+		$sourceUrl = source;
 
 		isPausedAudio = !isPausedAudio;
-		audioState = isPausedAudio ? 'paused' : 'playing';
+		$state = isPausedAudio ? 'paused' : 'playing';
 	};
 
 	$: {
@@ -58,29 +56,26 @@
 
 <section id="surah" class="min-h-dvh pt-8 pb-24">
 	{#if surah.number != 1}
-		<h1 class="text-center text-4xl md:text-5xl mt-5 mb-14 md:mb-20 font-arabic">
-			بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
-		</h1>
+		<div class="text-center mt-5 mb-10 md:mb-16">
+			<h1 class="text-4xl md:text-5xl font-arabic">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
+			<p class="text-sm mt-8 text-gray-500">Bismillaahir Rahmaanir Raheem</p>
+		</div>
 	{/if}
 
 	{#if surah.verses}
 		{#each surah.verses as verse}
-			<Verse
-				bind:audioState
-				bind:verseId
-				{verse}
-				{surah}
-				on:play={() => playSurah(verse.audio.primary, verse.number.inSurah)}
-			/>
+			{@const audioUrl = verse.audio.primary}
+			{@const verseId = verse.number.inSurah}
+			<Verse {verse} {surah} on:play={() => playSurah(audioUrl, verseId)} />
 		{/each}
 	{/if}
 
 	<audio
-		on:ended={playNextVerse}
 		bind:paused={isPausedAudio}
-		on:loadeddata={() => (audioState = 'playing')}
-		on:loadstart={() => (audioState = 'loading')}
-		src={audioSource}
+		on:ended={playNextVerse}
+		on:loadeddata={() => ($state = 'playing')}
+		on:loadstart={() => ($state = 'loading')}
+		src={$sourceUrl}
 	/>
 
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-10">

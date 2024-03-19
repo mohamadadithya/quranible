@@ -112,6 +112,8 @@ interface AsmaulHusna {
 	transliteration: string;
 }
 
+type AudioState = 'playing' | 'paused' | 'loading';
+
 export type {
 	QuranData,
 	JuzData,
@@ -121,5 +123,6 @@ export type {
 	SavedVerse,
 	PrayerIntention,
 	DailyPrayer,
-	AsmaulHusna
+	AsmaulHusna,
+	AudioState
 };

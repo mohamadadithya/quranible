@@ -3,14 +3,12 @@
 	import Icon from '@iconify/svelte';
 	import { createEventDispatcher } from 'svelte';
 	import { savedVerses } from '@lib/stores/bookmarks';
+	import { state, verseId } from '@stores/audio';
 	import type { SavedVerse, Surah, Verse } from '@lib/types';
 
 	const dispatch = createEventDispatcher();
 
-	export let verse: Verse,
-		surah: Surah,
-		verseId = verse.number.inSurah,
-		audioState: 'playing' | 'paused' | 'loading' = 'paused';
+	export let verse: Verse, surah: Surah;
 
 	let bookmarkedVerse: SavedVerse;
 
@@ -63,14 +61,12 @@
 			on:click={() => dispatch('play')}
 			title="Mainkan"
 		>
-			{#if audioState === 'loading' && verseId === verse.number.inSurah}
+			{#if $state === 'loading' && $verseId === verse.number.inSurah}
 				<Icon class="text-lg animate-spin" icon="gg:spinner" />
 			{:else}
 				<Icon
 					class="text-lg"
-					icon={audioState === 'playing' && verseId == verse.number.inSurah
-						? 'ph:pause'
-						: 'ph:play'}
+					icon={$state === 'playing' && $verseId == verse.number.inSurah ? 'ph:pause' : 'ph:play'}
 				/>
 			{/if}
 		</button>
