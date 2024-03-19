@@ -1,11 +1,9 @@
 <script>
 	import { PUBLIC_SITE_NAME } from '$env/static/public';
 	import Icon from '@iconify/svelte';
-	import NavList from '@components/NavList.svelte';
-	import { mainLinks } from '@data/links';
-	import { clickOutside } from '@lib/actions/click-outside';
+	import { createEventDispatcher } from 'svelte';
 
-	let isOpen = false;
+	const dispatch = createEventDispatcher();
 </script>
 
 <header
@@ -19,7 +17,7 @@
 					class="mr-2"
 					aria-label="Menu"
 					title="Menu"
-					on:click|stopPropagation={() => (isOpen = !isOpen)}
+					on:click|stopPropagation={() => dispatch('click-menu')}
 				>
 					<Icon class="text-3xl" icon="ic:round-menu" />
 				</button>
@@ -42,42 +40,3 @@
 		</ul>
 	</div>
 </header>
-
-<aside
-	class="h-screen w-3/4 md:w-1/4 py-10 fixed bg-gray-800 left-0 top-0 container mx-auto px-5 -translate-x-full opacity-0 transition-all duration-500 menu-panel flex flex-col justify-between pt-20"
-	class:opened={isOpen}
-	use:clickOutside={() => (isOpen = false)}
->
-	<nav>
-		<p class="mb-4 font-semibold text-xl">Menu</p>
-		<ul>
-			{#each mainLinks as link}
-				<NavList
-					on:click={() => (isOpen = false)}
-					name={link.name}
-					url={link.url}
-					icon={link.icon}
-				/>
-			{/each}
-			<li class="border-b-2 border-gray-600 py-5">
-				<a
-					class="flex items-center gap-2"
-					href="https://saweria.co/mohamadadithya"
-					target="_blank"
-					title="Donasi"
-				>
-					<Icon class="text-3xl" icon="bx:donate-heart" />
-					Donasi
-				</a>
-			</li>
-		</ul>
-	</nav>
-</aside>
-
-<style>
-	.menu-panel {
-		&:is(.opened) {
-			@apply translate-x-0 opacity-100;
-		}
-	}
-</style>
