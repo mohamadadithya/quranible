@@ -15,12 +15,11 @@
 	let bookmarkedVerse: SavedVerse;
 
 	const saveVerse = () => {
-		let savedVerse: SavedVerse = {
-			surahId: surah.number,
-			id: verse.number.inSurah
-		};
-
-		let filteredVerses: SavedVerse[] = [];
+		let filteredVerses: SavedVerse[] = [],
+			savedVerse: SavedVerse = {
+				surahId: surah.number,
+				id: verse.number.inSurah
+			};
 
 		if ($savedVerses) {
 			const sameVerse = $savedVerses.find(
@@ -57,22 +56,27 @@
 		</p>
 	{/if}
 	<p class="text-gray-500">{verse.translation.id}</p>
-	<div id="actions" class="flex items-center mt-5 text-xl">
-		{#if audioState === 'loading' && verseId === verse.number.inSurah}
-			<Icon class="text-2xl animate-spin" icon="gg:spinner" />
-		{:else}
-			<button type="button" on:click={() => dispatch('play')} class="mr-2" title="Mainkan">
+	<div id="actions" class="flex items-center gap-2 mt-5 text-xl">
+		<button
+			type="button"
+			class="btn btn-sm rounded-3xl"
+			on:click={() => dispatch('play')}
+			title="Mainkan"
+		>
+			{#if audioState === 'loading' && verseId === verse.number.inSurah}
+				<Icon class="text-lg animate-spin" icon="gg:spinner" />
+			{:else}
 				<Icon
-					class="text-2xl"
+					class="text-lg"
 					icon={audioState === 'playing' && verseId == verse.number.inSurah
 						? 'ph:pause'
 						: 'ph:play'}
 				/>
-			</button>
-		{/if}
-		<button type="button" on:click={saveVerse} title="Simpan">
+			{/if}
+		</button>
+		<button type="button" class="btn btn-sm rounded-3xl" on:click={saveVerse} title="Simpan">
 			<Icon
-				class="text-2xl"
+				class="text-lg"
 				icon={bookmarkedVerse ? 'ph:bookmark-simple-fill' : 'ph:bookmark-simple'}
 			/>
 		</button>
